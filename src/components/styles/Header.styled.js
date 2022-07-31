@@ -8,20 +8,20 @@ color: #ffffff;
 flex-direction: column;
 padding-top: 260px;
 
-h1{
+h1{ 
     font-weight: 100;
     font-size: 100px;
 }
 span{
     color: #c83f8f;
 }
-h3{
+h3{ 
     margin-top: 26px;
     font-size: 40px;
 }
-p{
-    align-items: center;
-    justify-content: center;
+p{  
+    display: inline-block;
+    text-align: center;
     margin-top: 48px;
     font-size: 20px;
 }
