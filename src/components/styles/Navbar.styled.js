@@ -1,13 +1,14 @@
 import styled from "styled-components"
 
 export const StyledNavbar = styled.nav `
-    width: 100%;
     height: 65px;
     padding-top: 40px;
     display: flex;
+    position: sticky;
+    top:0;
 
     ul {
-    flex: 1;
+    padding-left: 0;
     display: flex;
     list-style: none;
     justify-content: center;
@@ -35,4 +36,5 @@ export const Logo = styled.img `
     display: flex;
     width: 50px;
     height: 50px;
+    margin-right:108px;
 `

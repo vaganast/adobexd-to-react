@@ -9,14 +9,17 @@ flex-direction: column;
 padding-top: 260px;
 
 h1{ 
-    font-weight: 100;
+    font-weight: 900;
     font-size: 100px;
+    margin: 0;
+    span{
+        color: #c83f8f;
+    }
 }
-span{
-    color: #c83f8f;
-}
+
 h3{ 
-    margin-top: 26px;
+    font-weight: 600;
+    margin: 22px 0 0 0;
     font-size: 40px;
 }
 p{  
