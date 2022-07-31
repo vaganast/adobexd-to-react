@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { images } from "../../constants";
 export const StyledHeader = styled.div`
 align-items: center;
 justify-content: center;
@@ -27,8 +27,17 @@ p{
     text-align: center;
     margin-top: 48px;
     font-size: 20px;
+    margin-bottom: 103px;
 }
 `
-
-
+export const ButtonScroll = styled.button `
+    background: url(${images.Scroll});
+    width: 23px;
+    height: 57px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+    }
+`
 

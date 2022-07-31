@@ -8,6 +8,7 @@ import support from '../assets/support.svg'
 import uptime from '../assets/uptime.svg'
 import background from '../assets/background.svg'
 import background2 from '../assets/background2.svg'
+import Scroll from '../assets/Scroll.svg'
 
 export default {
     logo1,
@@ -19,5 +20,6 @@ export default {
     support,
     uptime,
     background,
-    background2
+    background2,
+    Scroll,
 }
