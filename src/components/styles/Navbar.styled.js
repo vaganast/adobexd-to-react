@@ -4,8 +4,8 @@ export const StyledNavbar = styled.nav `
     height: 65px;
     padding-top: 40px;
     display: flex;
-    position: sticky;
-    top:0;
+    //position: sticky;
+    //top:0;
 
     ul {
     padding-left: 0;
@@ -31,6 +31,12 @@ export const StyledNavbar = styled.nav `
             color: grey;
         }
     }
+`
+export const Container = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;    
 `
 export const Logo = styled.img `
     display: flex;

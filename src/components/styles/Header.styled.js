@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { images } from "../../constants";
+
 export const StyledHeader = styled.div`
 align-items: center;
 justify-content: center;

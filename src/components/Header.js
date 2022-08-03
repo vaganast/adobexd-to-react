@@ -3,10 +3,11 @@ import { StyledButton } from './styles/Button.styled'
 import { StyledHeader, ButtonScroll } from './styles/Header.styled'
 import { Box } from './styles/Box.styled'
 
-
 const Header = () => {
   return (
-    <StyledHeader >        
+    
+    <StyledHeader >  
+             
             <h1>Cryptic <span>Retail</span></h1>
             <h3>Easy, fast and affordable proxies </h3>
             <p>With the most advanced tools, we offer you the opportunity to buy proxies <br />
@@ -14,9 +15,12 @@ const Header = () => {
             <Box>
               <StyledButton >Sign up</StyledButton>
               <StyledButton bg= '#f693d4'>Contact us</StyledButton>
-            </Box>           
-            <ButtonScroll />
+            </Box>  
+                      
+            <ButtonScroll />  
+            
     </StyledHeader>
+    
   )
 }
 

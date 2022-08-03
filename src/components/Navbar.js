@@ -1,7 +1,6 @@
 import React from 'react'
-import { Logo, StyledNavbar } from './styles/Navbar.styled'
+import { Logo, StyledNavbar, Container } from './styles/Navbar.styled'
 import { images } from '../constants'
-import { Container } from './styles/Container.styled'
 import { StyledButton } from './styles/Button.styled'
 
 const Navbar = () => {
