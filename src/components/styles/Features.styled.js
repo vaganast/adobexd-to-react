@@ -40,18 +40,27 @@ flex-wrap: wrap;
 row-gap: 70px;
 `
 export const Card = styled.div`
-  background: #0a51cc;
+  display: flex;
+  flex-direction: column;
   width: 600px;
   height: 200px;
   color: #fff;
-  border-radius: 10px;  
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
   
-  
-`
-export const Icon = styled.img `
+  img{
     display: flex;
     width: 50px;
     height: 50px;
-    margin-right:108px;
+    margin:0;
+  }
+
+  p{
+    font-size: 20px;
+    margin: 31px 0 0 0;
+  }
+
+  h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 32px 0 0 0;
+  }
 `
