@@ -4,7 +4,7 @@ export const StyledFeatures = styled.div`
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-top: 75px;
+    margin: 75px 0 215px 0;
     flex-direction: column;
     padding: 0 88px 0 83px;
     h2{
