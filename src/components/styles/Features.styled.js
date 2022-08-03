@@ -7,6 +7,7 @@ export const StyledFeatures = styled.div`
     margin: 75px 0 215px 0;
     flex-direction: column;
     padding: 0 88px 0 83px;
+    
     h2{
         margin: 0;
         font-size: 60px;
