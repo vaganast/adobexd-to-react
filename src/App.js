@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar"
 import { GlobalStyles } from './components/styles/Global'
 import Header from "./components/Header"
 import Features from "./components/Features"
+import Pricing from "./components/Pricing"
+import Faq from "./components/Faq"
 
 const theme = {
     color: {
@@ -22,7 +24,9 @@ function App () {
          <GlobalStyles />
            <Navbar />        
            <Header /> 
-           <Features />          
+           <Features />  
+           <Pricing />   
+           <Faq />     
          </>
         </ThemeProvider>
     )

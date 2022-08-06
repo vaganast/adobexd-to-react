@@ -1,7 +1,6 @@
 import React from 'react'
 import { StyledButton } from './styles/Button.styled'
-import { StyledHeader, ButtonScroll } from './styles/Header.styled'
-import { Box } from './styles/Box.styled'
+import { StyledHeader, ButtonScroll, Box } from './styles/Header.styled'
 
 const Header = () => {
   return (

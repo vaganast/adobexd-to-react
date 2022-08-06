@@ -4,7 +4,7 @@ export const StyledFeatures = styled.div`
     align-items: center;
     justify-content: center;
     display: flex;
-    margin: 75px 0 215px 0;
+    margin: 75px 0 207px 0;
     flex-direction: column;
     padding: 0 88px 0 83px;
     
@@ -25,14 +25,9 @@ export const StyledFeatures = styled.div`
         color: #993366
     }   
 `
-export const Box =styled.div`
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 166px;
-`
+
 export const Cards = styled.div`
+margin-top: 166px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -52,7 +47,7 @@ export const Card = styled.div`
     width: 50px;
     height: 50px;
     margin:0;
-  }
+    }
 
   p{
     font-size: 20px;

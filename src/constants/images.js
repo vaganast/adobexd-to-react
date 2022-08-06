@@ -9,6 +9,8 @@ import uptime from '../assets/uptime.svg'
 import background from '../assets/background.svg'
 import background2 from '../assets/background2.svg'
 import Scroll from '../assets/Scroll.svg'
+import plus from '../assets/plus.svg'
+import minus from '../assets/minus.svg'
 
 export default {
     logo1,
@@ -22,4 +24,6 @@ export default {
     background,
     background2,
     Scroll,
+    plus,
+    minus
 }

@@ -1,11 +1,11 @@
 import React from 'react'
-import { StyledFeatures, Cards, Card, Box } from './styles/Features.styled'
+import { StyledFeatures, Cards, Card } from './styles/Features.styled'
 import { images } from "../constants";
+import { Box } from './styles/Box.styled';
 
 const Features = () => {
   return (
-    <StyledFeatures>
-      
+    <StyledFeatures>      
         <Box>
             <h2>Features</h2>
             <p>The most advanced <span>proxy</span> solution in the market</p>
