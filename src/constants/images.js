@@ -11,6 +11,10 @@ import background2 from '../assets/background2.svg'
 import Scroll from '../assets/Scroll.svg'
 import plus from '../assets/plus.svg'
 import minus from '../assets/minus.svg'
+import instagram from '../assets/instagram.svg'
+import twitter from '../assets/twitter.svg'
+import discord from '../assets/discord.svg'
+
 
 export default {
     logo1,
@@ -25,5 +29,8 @@ export default {
     background2,
     Scroll,
     plus,
-    minus
+    minus,
+    instagram,
+    twitter,
+    discord,
 }

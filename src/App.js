@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import Features from "./components/Features"
 import Pricing from "./components/Pricing"
 import Faq from "./components/Faq"
+import Footer from "./components/Footer"
 
 const theme = {
     color: {
@@ -27,6 +28,7 @@ function App () {
            <Features />  
            <Pricing />   
            <Faq />     
+           <Footer />
          </>
         </ThemeProvider>
     )
