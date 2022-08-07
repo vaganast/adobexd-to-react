@@ -6,7 +6,7 @@ export const StyledPricing = styled.div`
     display: flex;
     margin: 0 0 207px 0;
     flex-direction: column;
-    padding: 0 98px 0 98px;
+    padding: 0 198px 0 198px;
 
     h2{
         margin: 0;

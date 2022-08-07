@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledNavbar = styled.nav `
     height: 65px;
-    padding-top: 40px;
+    padding: 40px 100px 0 100px;
     display: flex;
     //position: sticky;
     //top:0;

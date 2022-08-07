@@ -6,7 +6,7 @@ export const StyledFeatures = styled.div`
     display: flex;
     margin: 75px 0 207px 0;
     flex-direction: column;
-    padding: 0 88px 0 83px;
+    padding: 0 188px 0 183px;
     
     h2{
         margin: 0;

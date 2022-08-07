@@ -6,7 +6,7 @@ export const StyledFaq = styled.div `
     display: flex;
     margin: 0 0 147px 0;
     flex-direction: column;
-    padding: 0 318px 0 319px;
+    padding: 0 418px 0 419px;
 
     h2{
         margin: 0 0 100 0;
