@@ -4,8 +4,8 @@ export const StyledFooter = styled.footer `
     display: flex;
     background-color: #000000;
     width: 100%;
-    height: 230px;
-    padding: 28px 50px 0 200px;
+    
+    padding: 28px 50px 28px 200px;
     
 `
 export const Container = styled.div `
@@ -107,7 +107,7 @@ export const LogoFooter = styled.div`
     }
 
     h6 {
-        margin: 0;
+        margin: 44px 0 0 0;
         color: #d8d8d8;
         white-space: nowrap;        
     }
@@ -117,4 +117,5 @@ export const Wrapper = styled.div`
 display: flex;
 flex-direction: column;
 align-items: flex-start;
+margin: 44px 0 0 0;
 `
